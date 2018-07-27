@@ -10,4 +10,4 @@ eureka:
       defaultZone:  http://eurekaserver1:8222/eureka
   instance:
     instance-id: ${spring.application.name}:${server.port}
-    #instance-id: ${spring.cloud.client.ipAddress}:${server.port}//部署到另一台电脑
+  env: dev  

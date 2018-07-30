@@ -6,7 +6,7 @@ spring:
     name: order
     
   rabbitmq:
-    host: 192.168.10.48
+    host: 192.168.10.82
     username: lkl
     password: 123456   
     port: 5672
